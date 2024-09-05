@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11.9
+  - python=31.9
   - pip
   - numpy
   - conda-forge: gxx-linux-64
