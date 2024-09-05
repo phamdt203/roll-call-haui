@@ -1,0 +1,17 @@
+name: face_recognition_env  
+channels:  
+  - defaults  
+  - conda-forge  
+dependencies:  
+  - python=3.9.19  
+  - numpy 
+  - pip  
+  - pip:  
+    - opencv-python==4.7.0.72
+    - scikit-image==0.20.0
+    - onnx==1.14.0
+    - onnxruntime==1.14.1
+    - gdown==4.7.1
+    - fastapi
+    - uvicorn
+    - python-multipart

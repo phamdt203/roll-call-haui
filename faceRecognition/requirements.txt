@@ -1,0 +1,13 @@
+numpy
+Cython
+cython-bbox
+opencv-python
+scikit-image
+onnx
+onnxruntime
+gdown
+scikit-learn
+fastapi
+uvicorn
+python-multipart
+streamlit

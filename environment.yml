@@ -1,0 +1,17 @@
+name: roll-call-haui
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=31.9
+  - pip
+  - numpy
+  - conda-forge: gxx-linux-64
+  - pip:
+    - cpython_bbox
+    - opencv-python
+    - onnx
+    - onnxruntime
+    - fastapi
+    - uvicorn
+    - python-multipart
